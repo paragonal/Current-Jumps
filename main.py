@@ -73,7 +73,7 @@ def plot_all_pairs(file, sheet_name, column_titles):
     plt.tight_layout()
 
 
-voltages, currents = plot_IV_curve_simple("KR2B9IVcurv1.xlsx", sheet_name="H_R1B9_IVcurve_4", silent=True)
+voltages, currents = plot_IV_curve_simple("data/KR2B9IVcurv1.xlsx", sheet_name="H_R1B9_IVcurve_4", silent=True)
 
 
 def fit_fun(x, a, b, c, d, f):
