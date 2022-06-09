@@ -106,7 +106,7 @@ axs[1].set_ylabel("Conductance")
 plt.show()
 
 # ## Get conductance as func of temp
-# file = "R1B9_R-vs-T.xlsx"
+# file = "R1B9_RvsT_5mV.xlsx"
 # sheet_name = "R_vs_T_R1B92_0T_5mV"
 # df = pd.read_excel(file, sheet_name=sheet_name)
 # temp, current, voltage = df["Temp"], df["Current"], df["Voltage"]
